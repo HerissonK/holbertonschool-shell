@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 10 $BINARY
+tr $((2#$BINARY)) 10
