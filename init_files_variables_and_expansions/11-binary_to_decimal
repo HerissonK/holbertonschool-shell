@@ -1,2 +1,2 @@
 #!/bin/bash
-tr echo $(( @#BINARY )) BINARY=00101011
+tr echo $(( @#BINARY )) BINARY=001010
