@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif" | sed 's/\.gif$//' | sort -n
+find . -type f -name "*.gif" | sort -n | xargs -n1 sh -c 'printf "%s\n" "${1%.gif}"' _
